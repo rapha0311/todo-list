@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgb(108, 108, 177);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.container h1 {
+    color: aliceblue;
+    font-weight: bold;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: rgb(152, 163, 159);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: rgb(67, 100, 89);
+}
+
+.completed {
+    opacity: 0.6;
+    text-decoration: line-through;
+}
