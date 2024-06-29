@@ -1,12 +1,13 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    background-color: black;
 }
 
 .container {
     max-width: 600px;
     margin: 0 auto;
-    background-color: rgb(108, 108, 177);
+    background-color: rgba(235, 235, 240, 0.64);
     border-radius: 10px;
     padding: 10px;
 }
@@ -14,6 +15,7 @@ body {
 .container h1 {
     color: aliceblue;
     font-weight: bold;
+    margin-left: 35%;
 }
 
 form {
@@ -46,5 +48,17 @@ button:hover {
 
 .completed {
     opacity: 0.6;
-    text-decoration: line-through;
+    color: green;
+    font-weight: bold;
 }
+
+.completed .fa-check {
+    display: inline;
+}
+
+.fa-check {
+    display: inline;
+    color: green;
+    margin-left: 8px;
+}
+
